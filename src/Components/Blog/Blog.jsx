@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import '../Blog/Blog.css'
+import './Blog.css'
 import useFetch from './useFetch'
 
 const BlogPage = () => {
-    const {data, error, isLoading}= useFetch("http://localhost:8000/blogs")
+    const {data, error, isLoading}= useFetch("http://localhost:8080/blogs")
     console.log(data)
 
     return (

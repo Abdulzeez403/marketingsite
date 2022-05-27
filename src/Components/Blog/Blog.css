@@ -97,3 +97,18 @@
 .blog-details {
     text-align: center;
 }
+
+@media screen and (max-width:768px){
+
+ .blog-hero {
+  display: block;
+}
+
+ img {
+width:40%;
+ margin: auto -1.6rem;
+
+}
+
+
+}
